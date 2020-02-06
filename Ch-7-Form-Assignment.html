@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang= "en">
+<head>
+    <meta charset= "UTF-8">
+    <meta name= "viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA Compatible" content="ie=edge">
+    <title>Ch-7-Form Assignment</title>
+</head>    
+ <body>
+    <h1>Chapter # 7-Forms</h1>
+    <p>
+    <fieldset>
+        <legend>Your Details:</legend>
+        <label>Name:<br />
+        <input type="text" name="name"/></label><br />
+        <label>Email:<br />
+        <input type="text" name="email" /></label>
+    </fieldset>
+    </p>
+    <p>
+    <fieldset>
+        <legend>Your Review:</legend>
+        <p>How did you hear about us?
+        <select name="media">
+            <option value="google">Google</option>
+            <option value="facebook">Facebook</option>
+            <option value="twitter">Twitter</option>
+            <option value="instagram">Instagram</option>
+        </select>
+        </p>
+        
+        <br />
+        <br />
+       <label> Would you visit again?<br />
+        <input type="radio" name="question" value="y" />Yes
+        <input type="radio" name="question" value="n" />No
+        <input type="radio" name="question" value="maybe" />Maybe
+        <p>
+         Comments:
+        </p>
+           <textarea name="comments" rows="4" cols="30"> Enter your comments...</textarea></label>
+           <br />
+           <br />
+           <input type="checkbox" name="signup" />Sign me up for email update.
+           <br />
+           <input type="submit" value="Submit Review" />
+
+        </fieldset>
+        
+ </body>
+ </html>
